@@ -13,3 +13,5 @@ D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Repository\obj\Debug\net6.0\refint\NLayer.Repository.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.pdb
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Repository\obj\Debug\net6.0\ref\NLayer.Repository.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.runtimeconfig.json
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.genruntimeconfig.cache
