@@ -15,7 +15,7 @@ namespace NLayer.Core.Models
         //Bu isimlendirme yapıldığında EF-Core bu property'nin Category entitysine ait bir Foreign key olduğunu anlıyor. Ancak Custom bir isimlendirme yapılırsa bunun ForeignKey olarak işaretlenmesi gerekmektedir. Aynı durum PrimaryKey (Id) içinde geçerlidir. 
 
         //Navigation Properties
-        public Category Category { get; set; }
-        public ProductFeature ProductFeature { get; set; }
+        public Category? Category { get; set; }
+        public ProductFeature? ProductFeature { get; set; }
     }
 }

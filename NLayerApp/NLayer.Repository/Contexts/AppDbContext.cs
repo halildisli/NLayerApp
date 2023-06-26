@@ -27,6 +27,25 @@ namespace NLayer.Repository.Contexts
 
             //modelBuilder.ApplyConfiguration(new ProductConfiguration()); // Bu kullanımda ise hangi configuration dosyalarını uygulayacağını tek tek göstermek gerekiyor.
 
+            modelBuilder.Entity<ProductFeature>().HasData(new ProductFeature
+            {
+                Id = 1,
+                Color = "Kırmızı",
+                Height = 100,
+                Width = 200,
+                ProductId=1
+
+            },
+            new ProductFeature
+            {
+                Id = 2,
+                Color = "Mavi",
+                Height = 300,
+                Width =500,
+                ProductId = 2
+
+            });
+
 
             base.OnModelCreating(modelBuilder);
         }

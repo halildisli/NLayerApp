@@ -15,6 +15,6 @@ namespace NLayer.Core.Models
         public int ProductId { get; set; }
 
         //Navigation Properties
-        public Product Product { get; set; }
+        public Product? Product { get; set; }
     }
 }

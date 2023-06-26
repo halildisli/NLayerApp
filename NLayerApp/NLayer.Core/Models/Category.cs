@@ -11,6 +11,6 @@ namespace NLayer.Core.Models
         public string Name { get; set; }
 
         //Navigation Properties
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product>? Products { get; set; }
     }
 }
