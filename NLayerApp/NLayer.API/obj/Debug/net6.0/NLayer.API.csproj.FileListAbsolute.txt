@@ -74,3 +74,6 @@ D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\Humanizer.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
