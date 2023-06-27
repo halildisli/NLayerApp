@@ -34,7 +34,7 @@ namespace NLayer.API.Controllers
             //return Ok(CustomResponseDto<List<ProductDto>>.Success(200, productsDto));
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, productsDto));
         }
-        [ServiceFilter(typeof(NotFoundFilter<Product>))]
+        [ServiceFilter(typeof(NotFoundFilter<Product>))] //Metoda girmeden çalışır.
         //GET api/products/5
         [HttpGet("{id}")] //Eğer bu kısımda süslü paranterzlerle id  belirtilmezse queryString olarak bekler. Süslü parantez ile belirtilirse / koyularak id girilebilir.
         public async Task<IActionResult> GetById(int id)
