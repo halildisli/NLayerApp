@@ -79,3 +79,5 @@ D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidati
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\Autofac.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\NLayer.Caching.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.API\bin\Debug\net6.0\NLayer.Caching.pdb

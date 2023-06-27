@@ -35,6 +35,8 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddMemoryCache();
+
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
@@ -54,7 +56,6 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()); //Service sağlayıcısı olarak AutoFac'i kullandığımı belirtiyorum.
 
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new RepoServiceModule())); //AutoFac kütüphanesi ile yazdığım modulu sisteme ekliyorum.
-
 
 
 
