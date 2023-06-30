@@ -76,3 +76,5 @@ D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidati
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Web\bin\Debug\net6.0\Autofac.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Web\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
