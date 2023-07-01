@@ -1,13 +1,14 @@
-﻿using Autofac.Extensions.DependencyInjection;
-using Autofac;
-using NLayer.Web.Modules;
+﻿using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using NLayer.Repository.Contexts;
-using System.Reflection;
 using NLayer.Service.Mapping;
-using FluentValidation.AspNetCore;
 using NLayer.Service.Validations;
 using NLayer.Web.Filters;
+using NLayer.Web.Modules;
+using NLayer.Web.Services;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,16 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 
     // NOT : Burada tip güvensiz olarak dogrudan katmanin ismini tirnaklar icerisinde yazabilirdik ancak daha sonraki bir zamanda dosya isminde degisiklik oldugu zaman hata verecektir. Bu sebeble bize bir assembly ver bu assembly appdbcontex'in oldugu assembly olsun ve onun ismini al dedik.
 }));
+
+
+builder.Services.AddHttpClient<ProductsApiService>(options =>
+{
+    options.BaseAddress = new Uri(builder.Configuration["Baseurl"]);
+});
+builder.Services.AddHttpClient<CategoriesApiService>(options =>
+{
+    options.BaseAddress = new Uri(builder.Configuration["Baseurl"]);
+});
 
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
