@@ -72,8 +72,8 @@ namespace NLayer.Caching
         public Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
         {
             var products=Task.FromResult(_memoryCache.Get<IEnumerable<Product>>(CacheProductKey));
-            var productsWithCategoryDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
-            return Task.FromResult(CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productsWithCategoryDto));
+            var productsWithCategoryDto = _mapper.Map<IEnumerable<ProductWithCategoryDto>>(products);
+            return Task.FromResult(CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productsWithCategoryDto.ToList()));
 
             //Task.FromResult() ==> Metodun içerisinde await kullanmadığımızda ancak Task dönememiz gereken durumalarda kullandığımız bir metotdur. Task ile kapsülleme işlemi yapar.
         }

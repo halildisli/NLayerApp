@@ -1,0 +1,17 @@
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Service.deps.json
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Service.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Service.pdb
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Core.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Repository.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Repository.pdb
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\bin\Debug\net7.0\NLayer.Core.pdb
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.csproj.AssemblyReference.cache
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.AssemblyInfoInputs.cache
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.AssemblyInfo.cs
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.csproj.CoreCompileInputs.cache
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.csproj.CopyComplete
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\refint\NLayer.Service.dll
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\NLayer.Service.pdb
+D:\GitHubProjects\NLayerApp\NLayerApp\NLayer.Service\obj\Debug\net7.0\ref\NLayer.Service.dll
